@@ -780,7 +780,7 @@ require_once 'inc.head.php';
                 </div>
                 <div class="row call-us-box">
                     <div class="span12 call-us">
-                        <span>Call Us: +38 (097) 989-55-55</span>
+                        <span>Call Us: +94 (077) 072-72-45</span>
                     </div>
                 </div>
             </div>
