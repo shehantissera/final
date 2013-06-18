@@ -62,7 +62,7 @@
 		<div class="container footer-second">
 			<div class="row">
 				<div class="span3">Copyright &copy; TRSSriLanka.com, 2013</div>
-				<address class="span3 img adress">Avenue of the American Ind.,<br> st.133/2, New York City, USA</address>
+				<address class="span3 img adress">Shehan Productions<br> No.25, Mark Road, Periyamulla, Negombo, Sri Lanka</address>
 				<div class="span3 img phone"><span>Call Us:</span> +94 (077) 072-72-45<br> <span>or</span> +94 (031) 223-95-24</div>
 				<div class="span3 payments">
 					<img src="img/visa.png" alt="Visa logo">
@@ -72,11 +72,3 @@
 				</div>
 			</div>
 		</div>
-        <script src="js/jquery.min.js"></script>
-        <script src="js/bootstrap.js"></script>
-        <script src="js/jquery.formstyler.js"></script>
-        <script src="js/jquery.carouFredSel-6.2.0-packed.js"></script>
-        <script src="js/jquery.touchSwipe.min.js"></script>
-        <script src="js/jquery.cookie.js"></script>
-        <script src="js/jquery.minicolors.js"></script>
-        <script src="js/script.js"></script>

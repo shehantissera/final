@@ -209,18 +209,18 @@
                             <li><a href="#">Russian</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown">
+                    <!--li class="dropdown">
                         <a href="#" data-toggle="dropdown">Usd<span class="arrow"></span></a>
                         <ul class="dropdown-menu currency">
                             <li><a href="#">Usd</a></li>
                             <li><a href="#">eur</a></li>
                             <li><a href="#">gbp</a></li>
                         </ul>
-                    </li>
+                    </li>-->
                     <li id="cart" class="dropdown">
                         <a href="#" data-toggle="dropdown">0<span class="arrow"></span></a>
                         <div class="dropdown-menu">
-                            <h6>Recently added item(s)</h6>
+                            <h6>Recently added items(s)</h6>
                             <div class="clearfix">
                                 <div class="mini-cart-img pull-left">
                                     <a href="#"><img src="content/photo-cart-1.png" alt=""></a>
@@ -241,7 +241,7 @@
                                     <a href="#" class="close">&nbsp;</a>
                                 </div>
                             </div>
-                            <a href="#" class="btn btn-primary">Shopping Cart</a><a href="#" class="btn btn-info">Checkout</a>
+                            <!--<a href="#" class="btn btn-primary">Shopping Cart</a><a href="#" class="btn btn-info">Checkout</a>-->
                         </div>
                     </li>
                 </ul>
