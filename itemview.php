@@ -14,16 +14,7 @@ require_once 'inc.head.php';
 		
         <?php require_once 'inc.topNaviBar.php'; ?>
 		
-        <div class="second-top-box">
-            <div class="container-box">
-                <span class="welcome-msg pull-left">Welcome visitor you can <a href="#">login</a> or <a href="#">create an account</a>.</span>
-                <ul class="pull-right">
-                    <li><a href="#">My Account</a></li>
-                    <li><a href="#">My Wishlist</a></li>
-                    <li><a href="#">Checkout</a></li>
-                </ul>
-            </div>
-        </div>
+        <?php require_once 'inc.accountStat.php' ?>
 		
         <div class="container-box">
 			<div class="container main-menu">
@@ -166,13 +157,13 @@ require_once 'inc.head.php';
                         <div class="slider-border"><div class="border"></div></div>
                         <div class="title">
                             <span>2013</span>
-                            <h6>NEW Womens Collections</h6>
+                            <h6>NEW Sight collections</h6>
                             <div class="slider-button-box">
                                 <div class="btn-ads-container">
                                     <button class="btn-ads" type="button">
                                         <span class="flip-container">
-                                            <span class="back">Only from $150</span>
-                                            <span class="front">Buy Now</span>
+                                            <span class="back">Now</span>
+                                            <span class="front">Search</span>
                                         </span>
                                     </button>
                                 </div>
