@@ -174,9 +174,12 @@
                                 <input id="remember" type="checkbox"> Remember me
                             </label>
                             
-							<input type="submit" value="Login" class="btn btn-primary">
+							<input type="submit" value="Create Account" class="btn btn-primary">
+							
+							<input type="submit" value="Clear" class="btn btn-primary">
+							
                             <div class="required-field pull-right">* Required Field</div>
-                            <a href="#" class="forgot pull-right">Forgot Your Password?</a>
+                            
                             <div class="clearfix"></div>
                         </form>
                     </div>
