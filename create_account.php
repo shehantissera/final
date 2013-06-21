@@ -161,118 +161,33 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="span6 new-costumers">
-                        <h2>New guests</h2>
+                    <div class="span6 login">
+                        <h2>New Account</h2>
+                        <p>Enter your information in the fields given below.</p>
+                        <form action="#">
+                            <label>First name: <span class="required">*</span></label>
+                            <input type="text">
+                            <label>Last name: <span class="required">*</span></label>
+                            <input type="text">
+							
+                            <label class="checkbox-form">
+                                <input id="remember" type="checkbox"> Remember me
+                            </label>
+                            
+							<input type="submit" value="Login" class="btn btn-primary">
+                            <div class="required-field pull-right">* Required Field</div>
+                            <a href="#" class="forgot pull-right">Forgot Your Password?</a>
+                            <div class="clearfix"></div>
+                        </form>
+                    </div>
+					<div class="span6 new-costumers">
+						<h2>New guests</h2>
                         <p>By creating an account with our application, you will be able to find the information regarding Sri Lanka faster, 
                             these searches can be according to your interests, get to know the best places available with the recommendations and reviews of other guests.
                         </p>
-                        <a href="#" class="btn btn-primary">Create an account</a>
                     </div>
                 </div>
-				<div class="accordion-group">
-                                <div class="accordion-heading">
-                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-                                        Billing Information<span class="pull-right">2</span>
-                                    </a>
-                                </div>
-                                <div id="collapseTwo" class="accordion-body collapse">
-                                    <div class="accordion-inner">
-                                        <div class="left">
-                                            <label>First Name: <span class="required">*</span></label>
-                                            <input type="text" required>
-                                            <label>Last Name: <span class="required">*</span></label>
-                                            <input type="text" required>
-                                            <label>Email Adress: <span class="required">*</span></label>
-                                            <input type="email" required>
-                                            <label>Telephone: <span class="required">*</span></label>
-                                            <input type="text" required>
-                                            <label>Fax:</label>
-                                            <input type="text" required>
-                                        </div>
-                                        <div class="right">
-                                            <label>Company:</label>
-                                            <input type="text" required>
-                                            <label>Company ID:</label>
-                                            <input type="text" required>
-                                            <label>Address 1: <span class="required">*</span></label>
-                                            <input type="text" required>
-                                            <label>Address 2:</label>
-                                            <input type="text" required>
-                                            <label>City: <span class="required">*</span></label>
-                                            <input type="text" required>
-                                            <label>Post Code:</label>
-                                            <input type="text" required>
-                                            <label>Country: <span class="required">*</span></label>
-                                            <select>
-                                                <option>Please Select</option>
-                                                <option>Aaland Islands</option>
-                                                <option>Afghanistan</option>
-                                                <option>Albania</option>
-                                                <option>Algeria</option>
-                                                <option>American Samoa</option>
-                                                <option>Andorra</option>
-                                                <option>Angola</option>
-                                                <option>Anguilla</option>
-                                                <option>Antarctica</option>
-                                                <option>Antigua and Barbuda</option>
-                                                <option>Argentina</option>
-                                                <option>Armenia</option>
-                                                <option>Aruba</option>
-                                                <option>Australia</option>
-                                                <option>Austria</option>
-                                                <option>Azerbaijan</option>
-                                                <option>Bahamas</option>
-                                                <option>Bahrain</option>
-                                                <option>Bangladesh</option>
-                                                <option>Barbados</option>
-                                                <option>Belarus</option>
-                                                <option>Belgium</option>
-                                                <option>Belize</option>
-                                                <option>Benin</option>
-                                                <option>Bermuda</option>
-                                            </select>
-                                            <label>Region / State: <span class="required">*</span></label>
-                                            <select>
-                                                <option>Please Select</option>
-                                                <option>Alabama</option>
-                                                <option>Alaska</option>
-                                                <option>American Samoa</option>
-                                                <option>Arizona</option>
-                                                <option>Arkansas</option>
-                                                <option>Armed Forces Africa</option>
-                                                <option>Armed Forces Americas</option>
-                                                <option>Armed Forces Canada</option>
-                                                <option>Armed Forces Europe</option>
-                                                <option>Armed Forces Middle East</option>
-                                                <option>Armed Forces Pacific</option>
-                                                <option>California</option>
-                                                <option>Colorado</option>
-                                                <option>Connecticut</option>
-                                                <option>Delaware</option>
-                                                <option>District of Columbia</option>
-                                                <option>Federated States Of Micronesia</option>
-                                                <option>Florida</option>
-                                                <option>Georgia</option>
-                                                <option>Guam</option>
-                                                <option>Hawaii</option>
-                                                <option>Idaho</option>
-                                                <option>Illinois</option>
-                                                <option>Indiana</option>
-                                                <option>Iowa</option>
-                                                <option>Kansas</option>
-                                                <option>Kentucky</option>
-                                                <option>Louisiana</option>
-                                            </select>
-                                        </div>
-                                        <div class="clearfix"></div>
-                                        <label class="checkbox-form">
-                                            <input type="checkbox">My delivery and billing addresses are the same.
-                                        </label>
-                                        <input type="submit" value="Submit" class="btn btn-primary">
-                                    </div>
-                                </div>
-                            </div>
-            </div>
+			</div>
         </div>
         <?php require_once 'inc.footer.php'; ?>
         <script src="http://code.jquery.com/jquery.js"></script>
