@@ -13,7 +13,7 @@
 				<div class="nav-collapse navbar-responsive-collapse collapse">
 					<ul class="nav top-main-navigation">
 						<li class="active"><a href="index.php" class="dropdown-toggle" data-toggle="dropdown">home</a></li>
-						<li><a href="about-us.html">About</a></li>
+						<li><a href="about-us.html">About Sri Lanka</a></li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Sights</a>
 							<ul class="dropdown-menu">
@@ -41,7 +41,7 @@
 								<li><a href="#">All images</a></li>
 							</ul>
 						</li>
-						<li><a href="about-us.html">About us</a></li>
+						
 					</ul>
 				</div>
                 <ul class="nav pull-right nav-top-right">
