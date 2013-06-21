@@ -13,7 +13,7 @@
 				<div class="nav-collapse navbar-responsive-collapse collapse">
 					<ul class="nav top-main-navigation">
 						<li class="active"><a href="index.php" class="dropdown-toggle" data-toggle="dropdown">home</a></li>
-						<li><a href="about-us.html">About us</a></li>
+						<li><a href="about-us.html">About</a></li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Sights</a>
 							<ul class="dropdown-menu">
@@ -24,96 +24,24 @@
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Accomadation</a>
 							<ul class="dropdown-menu">
-								<li><a href="full-width-page.html">Full Width</a></li>
-								<li><a href="left-sidebar.html">Left SideBar</a></li>
-								<li><a href="right-sidebar.html">Right SideBar</a></li>
-								<li class="dropdown">
-									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Shop</a>
-									<ul class="dropdown-menu">
-										<li><a href="catalog-grid.html">Catalog (Grid View)</a></li>
-										<li><a href="catalog-grid-2.html">Catalog (Grid View 2)</a></li>
-										<li><a href="catalog-list.html">Catalog (List Type View)</a></li>
-										<li><a href="product-view.html">Product view</a></li>
-										<li><a href="product-view-variants.html">Product view (Variants)</a></li>
-										<li><a href="shopping-cart.html">Shopping cart</a></li>
-										<li><a href="proceed-to-checkout.html">Proceed to checkout</a></li>
-										<li><a href="product-comparsion.html">Product comparison</a></li>
-										<li><a href="login.html">Login</a></li>
-									</ul>
-								</li>
-								<li><a href="about-us.html">About us</a></li>
-								<li><a href="contact-page.html">Contact</a></li>
-								<li><a href="blog-posts-list.html">Blog Posts list</a></li>
-								<li><a href="blog-post.html">Blog Post</a></li>
-								<li><a href="404-page.html">404</a></li>
-								<li><a href="404-page-2.html">404 2</a></li>
-								<li class="dropdown">
-									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio</a>
-									<ul class="dropdown-menu">
-										<li><a href="portfolio-1.html">1 column</a></li>
-										<li><a href="portfolio-2.html">2 column</a></li>
-										<li><a href="portfolio-3.html">3 column</a></li>
-										<li><a href="portfolio-4.html">4 column</a></li>
-										<li><a href="single-project.html">Single Project</a></li>
-									</ul>
-								</li>
-								<li><a href="galery-modern.html">Modern Gallery</a></li>
-								<li class="dropdown">
-									<a href="#" class="dropdown-toggle" data-toggle="dropdown">Galery</a>
-									<ul class="dropdown-menu">
-										<li><a href="galery-1.html">1 column</a></li>
-										<li><a href="galery-2.html">2 column</a></li>
-										<li><a href="galery-3.html">3 column</a></li>
-										<li><a href="galery-4.html">4 column</a></li>
-									</ul>
-								</li>
-								<li><a href="pricing-options.html">Pricing options</a></li>
-								<li><a href="team.html">Team</a></li>
-								<li><a href="faq.html">FAQ</a></li>
-								<li><a href="services.html">Services</a></li>
-								<li><a href="careers.html">Careers</a></li>
-								<li><a href="coming-soon.html">Coming Soon</a></li>
-								<li><a href="under-construction.html">Under Construction</a></li>
-								<li><a href="sitemap.html">SiteMap</a></li>
-								<li class="dropdown">
-									<a href="newsletter%2chtml.html" class="dropdown-toggle" data-toggle="dropdown">Newsletter</a>
-									<ul class="dropdown-menu">
-										<li><a href="newsletter-big-intro.html">Newsletter Big Intro</a></li>
-										<li><a href="newsletter-big-portfolio.html">Newsletter Big Portfolio</a></li>
-										<li><a href="newsletter-columns.html">Newsletter Columns</a></li>
-										<li><a href="newsletter-info.html">Newsletter Info</a></li>
-										<li><a href="newsletter-plan.html">Newsletter Plan</a></li>
-										<li><a href="newsletter-portfolio.html">Newsletter Portfolio</a></li>
-										<li><a href="newsletter-product-list.html">Newsletter Product List</a></li>
-										<li><a href="newsletter-story.html">Newsletter Story</a></li>
-									</ul>
-								</li>
+								<li><a href="#">All</a></li>
+								<li><a href="#">Other types of accomadation comes over here</a></li>
 							</ul>
 						</li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services</a>
 							<ul class="dropdown-menu">
-								<li><a href="catalog-grid.html">Catalog (Grid View)</a></li>
-								<li><a href="catalog-grid-2.html">Catalog (Grid View 2)</a></li>
-								<li><a href="catalog-list.html">Catalog (List Type View)</a></li>
-								<li><a href="product-view.html">Product view</a></li>
-								<li><a href="product-view-variants.html">Product view (Variants)</a></li>
-								<li><a href="shopping-cart.html">Shopping cart</a></li>
-								<li><a href="proceed-to-checkout.html">Proceed to checkout</a></li>
-								<li><a href="product-comparsion.html">Product comparison</a></li>
-								<li><a href="login.html">Login</a></li>
+								<li><a href="catalog-grid.html">Types of Services</a></li>
 							</ul>
 						</li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Gallery</a>
 							<ul class="dropdown-menu">
-								<li><a href="portfolio-1.html">1 column</a></li>
-								<li><a href="portfolio-2.html">2 column</a></li>
-								<li><a href="portfolio-3.html">3 column</a></li>
-								<li><a href="portfolio-4.html">4 column</a></li>
-								<li><a href="single-project.html">Single Project</a></li>
+								<li><a href="#">Types of Gallery</a></li>
+								<li><a href="#">All images</a></li>
 							</ul>
 						</li>
+						<li><a href="about-us.html">About us</a></li>
 					</ul>
 				</div>
                 <ul class="nav pull-right nav-top-right">
@@ -125,14 +53,6 @@
                             <li><a href="#">Russian</a></li>
                         </ul>
                     </li>
-                    <!--li class="dropdown">
-                        <a href="#" data-toggle="dropdown">Usd<span class="arrow"></span></a>
-                        <ul class="dropdown-menu currency">
-                            <li><a href="#">Usd</a></li>
-                            <li><a href="#">eur</a></li>
-                            <li><a href="#">gbp</a></li>
-                        </ul>
-                    </li>-->
                     <li id="cart" class="dropdown">
                         <a href="#" data-toggle="dropdown">0<span class="arrow"></span></a>
                         <div class="dropdown-menu">
@@ -157,7 +77,6 @@
                                     <a href="#" class="close">&nbsp;</a>
                                 </div>
                             </div>
-                            <!--<a href="#" class="btn btn-primary">Shopping Cart</a><a href="#" class="btn btn-info">Checkout</a>-->
                         </div>
                     </li>
                 </ul>

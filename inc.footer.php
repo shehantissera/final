@@ -62,8 +62,8 @@
 		<div class="container footer-second">
 			<div class="row">
 				<div class="span3">Copyright &copy; TRSSriLanka.com, 2013</div>
-				<address class="span3 img adress">Shehan Productions<br> No.25, Mark Road, Periyamulla, Negombo, Sri Lanka</address>
-				<div class="span3 img phone"><span>Call Us:</span> +94 (077) 072-72-45<br> <span>or</span> +94 (031) 223-95-24</div>
+				<address class="span3 img adress"><a href="http://www.srilanka-trips.com/shehan-doc/shehan-online/">Shehan Productions</a><br> No.25, Mark Road, Periyamulla, Negombo, Sri Lanka</address>
+				<div class="span3 img phone"><span>Call Us:</span> +94 (077) 072-72-45<br> <span>Facebook:</span> facebook.com/shehan.tis</div>
 				<div class="span3 payments">
 					<img src="img/visa.png" alt="Visa logo">
 					<img src="img/paypal.png" alt="PayPal logo">
