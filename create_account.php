@@ -165,18 +165,41 @@
                         <h2>New Account</h2>
                         <p>Enter your information in the fields given below.</p>
                         <form action="#">
+						
                             <label>First name: <span class="required">*</span></label>
                             <input type="text">
+							
                             <label>Last name: <span class="required">*</span></label>
                             <input type="text">
 							
-                            <label class="checkbox-form">
-                                <input id="remember" type="checkbox"> Remember me
-                            </label>
+							<label>Age range: <span class="required">*</span></label>
+                            <select>
+                                <option selected>Please Select</option>
+                                <option>Aaland Islands</option>
+                                <option>Afghanistan</option>
+                            </select>
+							
+							<label>Email Address: <span class="required">*</span></label>
+                            <input type="text">
+							
+                            <label>Password: <span class="required">*</span></label>
+                            <input type="password">
+							
+							<label>Re-Password: <span class="required">*</span></label>
+                            <input type="password">
+							
+                            <label>User type: <span class="required">*</span></label>
+                            <select>
+                                <option selected>Please Select</option>
+                                <option>Guest</option>
+								<option>Service Provider</option>
+                            </select>
+							
+							<br><br>
                             
 							<input type="submit" value="Create Account" class="btn btn-primary">
 							
-							<input type="submit" value="Clear" class="btn btn-primary">
+							<input type="reset" value="Clear" class="btn btn-primary">
 							
                             <div class="required-field pull-right">* Required Field</div>
                             
@@ -193,7 +216,9 @@
 			</div>
         </div>
         <?php require_once 'inc.footer.php'; ?>
+		
         <script src="http://code.jquery.com/jquery.js"></script>
+		<script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
         <script src="js/bootstrap.js"></script>
         <script src="js/jquery.formstyler.js"></script>
         <script src="js/jquery.carouFredSel-6.2.0-packed.js"></script>

@@ -309,7 +309,7 @@
                                     <a href="product-view.html"><img src="content/baner-img-6.png" alt="Product image"></a>
                                     <div class="product-caption">
                                         <div class="price">
-                                            <span>$399.00</span>
+                                            <span>View</span>
                                         </div>
                                         <div class="inner">
                                             <h3 class="title"><a href="product-view.html" title="Caramel & Black Collared BODY Dress">Caramel & Black Collared BODY Dress</a></h3>
@@ -332,7 +332,7 @@
                                     <a href="product-view.html"><img src="content/baner-img-11.png" alt="Product image"></a>
                                     <div class="product-caption">
                                         <div class="price">
-                                            <span>$435.00</span>
+                                            <span>View</span>
                                         </div>
                                         <div class="inner">
                                             <h3 class="title"><a href="product-view.html" title="Mix Cady Collins Dresss">Mix Cady Collins Dresss</a></h3>
@@ -355,7 +355,7 @@
                                     <a href="product-view.html"><img src="content/baner-img-12.png" alt="Product image"></a>
                                     <div class="product-caption">
                                         <div class="price">
-                                            <span>$510.00</span>
+                                            <span>View</span>
                                         </div>
                                         <div class="inner">
                                             <h3 class="title"><a href="product-view.html" title="Caramel & Black Collared BODY Dress">Caramel & Black Collared BODY Dress</a></h3>
