@@ -149,7 +149,6 @@
         <div class="site-container">
             <ul class="breadcrumb container-box">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Shop</a></li>
                 <li class="active">Create an Account</li>
             </ul>
         </div>
@@ -208,8 +207,13 @@
                     </div>
 					<div class="span6 new-costumers">
 						<h2>New guests</h2>
-                        <p>By creating an account with our application, you will be able to find the information regarding Sri Lanka faster, 
+                        <p>By creating an account with our application as a guest, you will be able to find the information regarding Sri Lanka faster, 
                             these searches can be according to your interests, get to know the best places available with the recommendations and reviews of other guests.
+                        </p>
+						
+						<h2>New Service providers</h2>
+                        <p>By creating an account with our application as a Service provider, you will be able to add information about the service that you provide to the country, which can vary from Accomadation to Tours. 
+						these information can be viewed by the forigners who would like to use your service as for their requirment.
                         </p>
                     </div>
                 </div>
