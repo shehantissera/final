@@ -12,8 +12,8 @@
 				</a>
 				<div class="nav-collapse navbar-responsive-collapse collapse">
 					<ul class="nav top-main-navigation">
-						<li class="active"><a href="index.php" class="dropdown-toggle" data-toggle="dropdown">home</a></li>
-						<li><a href="about-us.html">About Sri Lanka</a></li>
+						<li class="active"><a href="index.php">home</a></li>
+						<li><a href="about-us.php">About Sri Lanka</a></li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Sights</a>
 							<ul class="dropdown-menu">
@@ -53,7 +53,7 @@
                             <li><a href="#">Russian</a></li>
                         </ul>
                     </li>
-                    <li id="cart" class="dropdown">
+                    <!--<li id="cart" class="dropdown">
                         <a href="#" data-toggle="dropdown">0<span class="arrow"></span></a>
                         <div class="dropdown-menu">
                             <h6>Recently added items(s)</h6>
@@ -78,7 +78,7 @@
                                 </div>
                             </div>
                         </div>
-                    </li>
+                    </li>-->
                 </ul>
             </div>
         </div>

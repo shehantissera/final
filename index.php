@@ -544,7 +544,7 @@
                     <div class="clearfix"></div>
                     <div class="span12">
                         <div class="carousel-grid home brands">
-                            <div class="title-two"><div>&nbsp;</div><div>OFFICIAL<br class="visible-567"> DISTRIBUTORS OF</div><div class="carousel-pager one"></div></div>
+                            <div class="title-two"><div>&nbsp;</div><div>OFFICIAL<br class="visible-567"> SPONSORS</div><div class="carousel-pager one"></div></div>
                             <ul class="content-list">
                                 <li><a href="#"><img src="content/brand-1.png" alt=""></a></li>
                                 <li><a href="#"><img src="content/brand-2.png" alt=""></a></li>
@@ -568,7 +568,7 @@
                     <div class="span12 home-bottom-block">
                         <div class=row>
                             <div class="span4 about-us">
-                                <div class="title">About Us</div>
+                                <div class="title">About Sri Lanka</div>
                                 <div class="page-description">In congue nisl varius quis aliqut lentesque a tellus quam  variu. VelL varius lobortis gravida. </div>
                                 <p>
                                     Lorem ipsum, libero et luctus molestie, turpis mi sagittis nisl, a scelerisque leo nulla et 
