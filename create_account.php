@@ -166,12 +166,12 @@
                         <form action="#">
 						
                             <label>First name: <span class="required">*</span></label>
-                            <input type="text">
+                            <input type="text" required>
 							
                             <label>Last name: <span class="required">*</span></label>
-                            <input type="text">
+                            <input type="text" required>
 							
-							<label>Age range: <span class="required">*</span></label>
+							<label>Age range:</label>
                             <select>
                                 <option selected>Please Select</option>
                                 <option>Aaland Islands</option>
@@ -179,13 +179,43 @@
                             </select>
 							
 							<label>Email Address: <span class="required">*</span></label>
-                            <input type="text">
+                            <input type="email" required>
 							
                             <label>Password: <span class="required">*</span></label>
-                            <input type="password">
+                            <input type="password" required>
 							
 							<label>Re-Password: <span class="required">*</span></label>
-                            <input type="password">
+                            <input type="password" required>
+							
+							<label>Country:</label>
+                            <select class="left" >
+                                <option>Please Select</option>
+                                <option>Aaland Islands</option>
+                                <option>Afghanistan</option>
+                                <option>Albania</option>
+                                <option>Algeria</option>
+                                <option>American Samoa</option>
+                                <option>Andorra</option>
+                                <option>Angola</option>
+                                <option>Anguilla</option>
+                                <option>Antarctica</option>
+                                <option>Antigua and Barbuda</option>
+                                <option>Argentina</option>
+                                <option>Armenia</option>
+                                <option>Aruba</option>
+                                <option>Australia</option>
+                                <option>Austria</option>
+                                <option>Azerbaijan</option>
+                                <option>Bahamas</option>
+                                <option>Bahrain</option>
+                                <option>Bangladesh</option>
+                                <option>Barbados</option>
+                                <option>Belarus</option>
+                                <option>Belgium</option>
+                                <option>Belize</option>
+                                <option>Benin</option>
+                                <option>Bermuda</option>
+                            </select>
 							
                             <label>User type: <span class="required">*</span></label>
                             <select>
