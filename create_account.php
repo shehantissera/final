@@ -166,10 +166,10 @@
                         <form action="#">
 						
                             <label>First name: <span class="required">*</span></label>
-                            <input type="text" required placeholder="Enter your First name...">
+                            <input type="text" required placeholder="Enter your First name..." title="First name cannot be empty.">
 							
                             <label>Last name: <span class="required">*</span></label>
-                            <input type="text" required placeholder="Enter your Second name...">
+                            <input type="text" required placeholder="Enter your Second name..." title="Last name cannot be empty.">
 							
 							<label>Age range:</label>
                             <select>
@@ -179,7 +179,7 @@
                             </select>
 							
 							<label>Email Address: <span class="required">*</span></label>
-                            <input type="email" required placeholder="ex: some_one@yahoo.com" title="The content you entered is not an valide email address.">
+                            <input type="email" required placeholder="ex: some_one@yahoo.com" title="Please provide an valide email address.">
 							
                             <label>Password: <span class="required">*</span></label>
                             <input type="password" required placeholder="Password...">
