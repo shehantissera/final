@@ -179,7 +179,7 @@
                             </select>
 							
 							<label>Email Address: <span class="required">*</span></label>
-                            <input type="email" required placeholder="eg: some_one@yahoo.com" title="The content you entered is not an valide email address.">
+                            <input type="email" required placeholder="ex: some_one@yahoo.com" title="The content you entered is not an valide email address.">
 							
                             <label>Password: <span class="required">*</span></label>
                             <input type="password" required placeholder="Password...">

@@ -3396,6 +3396,7 @@ footer .block-right h4{
 .login{border: solid 1px #e1e1e1; box-sizing: border-box; -moz-box-sizing: border-box;}
 .login > h2{margin: 16px 20px 0;}
 .login input{width: 412px;}
+.login select {width: 412px;}
 .login .btn{width: auto;}
 .login p{padding: 0 20px;}
 .login form{padding: 0 20px 20px;}
