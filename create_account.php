@@ -166,10 +166,10 @@
                         <form action="#">
 						
                             <label>First name: <span class="required">*</span></label>
-                            <input type="text" required>
+                            <input type="text" required placeholder="Enter your First name...">
 							
                             <label>Last name: <span class="required">*</span></label>
-                            <input type="text" required>
+                            <input type="text" required placeholder="Enter your Second name...">
 							
 							<label>Age range:</label>
                             <select>
@@ -179,17 +179,17 @@
                             </select>
 							
 							<label>Email Address: <span class="required">*</span></label>
-                            <input type="email" required>
+                            <input type="email" required placeholder="eg: some_one@yahoo.com" title="The content you entered is not an valide email address.">
 							
                             <label>Password: <span class="required">*</span></label>
-                            <input type="password" required>
+                            <input type="password" required placeholder="Password...">
 							
 							<label>Re-Password: <span class="required">*</span></label>
-                            <input type="password" required>
+                            <input type="password" required placeholder="Repeat your password...">
 							
 							<label>Country:</label>
-                            <select class="left" >
-                                <option>Please Select</option>
+                            <select>
+                                <option disabled selected value="">Please Select</option>
                                 <option>Aaland Islands</option>
                                 <option>Afghanistan</option>
                                 <option>Albania</option>
@@ -219,7 +219,7 @@
 							
                             <label>User type: <span class="required">*</span></label>
                             <select>
-                                <option selected>Please Select</option>
+                                <option disabled selected>Please Select</option>
                                 <option>Guest</option>
 								<option>Service Provider</option>
                             </select>
