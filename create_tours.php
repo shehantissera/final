@@ -149,83 +149,50 @@
         <div class="site-container">
             <ul class="breadcrumb container-box">
                 <li><a href="#">Home</a></li>
-                <li class="active">Create an Account</li>
+                <li class="active">Create a Sight</li>
             </ul>
         </div>
         <div class="site-container">
             <div class="container entry-content">
                 <div class="row">
                     <div class="span12">
-                        <h1 class="page-title">Create an Account</h1>
+                        <h1 class="page-title">Create a Sight</h1>
                     </div>
                 </div>
                 <div class="row">
                     <div class="span6 login">
-                        <h2>New Account</h2>
+                        <h2>New Sight</h2>
                         <p>Enter your information in the fields given below. The fields which contain <span class="required">*</span> are the required fields.</p>
                         <form action="#">
 						
-                            <label>First name: <span class="required">*</span></label>
-                            <input type="text" maxlength=100 required placeholder="Enter your First name..." title="First name cannot be empty.">
+                            <label>Name: <span class="required">*</span></label>
+                            <input type="text" maxlength=100 required title="The name should be filled." placeholder="Enter the sight name...">
 							
-                            <label>Last name: <span class="required">*</span></label>
-                            <input type="text" maxlength=100 required placeholder="Enter your Second name..." title="Last name cannot be empty.">
+                            <label>Description: <span class="required">*</span></label>
+                            <textarea required="required" maxlength=999 placeholder="Description should be less than 1000 characters"></textarea>
 							
-							<label>Age range:</label>
-                            <select>
-                                <option selected>Please Select</option>
-                                <option>18-25</option>
-                                <option>26-35</option>
-								<option>36-45</option>
-								<option>46-55</option>
-								<option>56 and above</option>
-                            </select>
-							
-							<label>Email Address: <span class="required">*</span></label>
-                            <input type="email" maxlength=50 required placeholder="ex: some_one@yahoo.com" title="Please provide an valide email address.">
-							
-                            <label>Password: <span class="required">*</span></label>
-                            <input type="password" required placeholder="Password...">
-							
-							<label>Re-Password: <span class="required">*</span></label>
-                            <input type="password" required placeholder="Repeat your password...">
-							
-							<label>Country:</label>
+							<label>Location:</label>
                             <select>
                                 <option disabled selected value="">Please Select</option>
                                 <option>Aaland Islands</option>
                                 <option>Afghanistan</option>
-                                <option>Albania</option>
-                                <option>Algeria</option>
-                                <option>American Samoa</option>
-                                <option>Andorra</option>
-                                <option>Angola</option>
-                                <option>Anguilla</option>
-                                <option>Antarctica</option>
-                                <option>Antigua and Barbuda</option>
-                                <option>Argentina</option>
-                                <option>Armenia</option>
-                                <option>Aruba</option>
-                                <option>Australia</option>
-                                <option>Austria</option>
-                                <option>Azerbaijan</option>
-                                <option>Bahamas</option>
-                                <option>Bahrain</option>
-                                <option>Bangladesh</option>
-                                <option>Barbados</option>
-                                <option>Belarus</option>
-                                <option>Belgium</option>
-                                <option>Belize</option>
-                                <option>Benin</option>
-                                <option>Bermuda</option>
                             </select>
 							
-                            <label>User type: <span class="required">*</span></label>
+							<label>Category:</label>
                             <select>
                                 <option disabled selected>Please Select</option>
-                                <option>Guest</option>
-								<option>Service Provider</option>
+                                <option>Aaland Islands</option>
+                                <option>Afghanistan</option>
                             </select>
+							
+                            <label>Longitude: <span class="required">*</span></label>
+                            <input type="number" step="any" required title="Longitude can contain only the range from -180 to 180">
+							
+							<label>Latitude: <span class="required">*</span></label>
+                            <input type="number" step="any" required title="Latitude can contain only the range from -90 to 90">
+							
+							<label>Images:</label>
+							<input type="file" multiple="true" name="imageuploader"/>
 							
 							<br><br>
                             
@@ -239,15 +206,10 @@
                         </form>
                     </div>
 					<div class="span6 new-costumers">
-						<h2>New guests</h2>
-                        <p>By creating an account with our application as a guest, you will be able to find the information regarding Sri Lanka faster, 
-                            these searches can be according to your interests, get to know the best places available with the recommendations and reviews of other guests.
+						<h2>New Sight</h2>
+                        <p>A sight can be a location which can be an attraction to the forigners and people who find it interesting. If you think you should share the areas which you find it interesting, add those information over here and add it as an new sight and let others know.
                         </p>
 						
-						<h2>New Service providers</h2>
-                        <p>By creating an account with our application as a Service provider, you will be able to add information about the service that you provide to the country, which can vary from Accomadation to Tours. 
-						these information can be viewed by the forigners who would like to use your service as for their requirment.
-                        </p>
                     </div>
                 </div>
 			</div>
@@ -265,4 +227,5 @@
         <script src="js/script.js"></script>
     </body>
 
+</html>
 </html>
