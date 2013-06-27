@@ -171,6 +171,9 @@
                             <label>Itinerary: <span class="required">*</span></label>
                             <textarea required="required" maxlength=2000 placeholder="Description should be less than 2000 characters"></textarea>
 							
+							<label>Number of days: <span class="required">*</span></label>
+                            <input type="number" maxlength=3 required title="Please enter the number of days of the tour." placeholder="Enter the number of days of the tour...">
+							
 							<label>Accomadation Type:</label>
                             <select>
                                 <option disabled selected value="">Please Select</option>
@@ -189,9 +192,6 @@
 								<option>Room only [R.O]</option>
                             </select>
 							
-							<label>Number of days: <span class="required">*</span></label>
-                            <input type="number" maxlength=3 required title="Please enter the number of days of the tour." placeholder="Enter the number of days of the tour...">
-							
 							<label>Category:</label>
                             <select>
                                 <option disabled selected>Please Select</option>
@@ -199,18 +199,25 @@
                                 <option>Afghanistan</option>
                             </select>
 							
-                            <label>Longitude of starting location: <span class="required">*</span></label>
-                            <input type="number" step="any" required title="Longitude can contain only the range from -180 to 180">
+                            <label>Starting Location:</label>
+                            <select>
+                                <option disabled selected value="">Please Select</option>
+                                <option>Aaland Islands</option>
+                                <option>Afghanistan</option>
+                            </select>
 							
-							<label>Latitude: <span class="required">*</span></label>
-                            <input type="number" step="any" required title="Latitude can contain only the range from -90 to 90">
-							
+							<label>Ending Location:</label>
+                            <select>
+                                <option disabled selected value="">Please Select</option>
+                                <option>Aaland Islands</option>
+                                <option>Afghanistan</option>
+                            </select>
 							<label>Images:</label>
 							<input type="file" multiple="true" name="imageuploader"/>
 							
 							<br><br>
                             
-							<input type="submit" value="Create Account" class="btn btn-primary">
+							<input type="submit" value="Create Tour" class="btn btn-primary">
 							
 							<input type="reset" value="Clear" class="btn btn-primary">
 							

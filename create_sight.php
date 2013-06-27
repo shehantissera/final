@@ -196,7 +196,7 @@
 							
 							<br><br>
                             
-							<input type="submit" value="Create Account" class="btn btn-primary">
+							<input type="submit" value="Create Sight" class="btn btn-primary">
 							
 							<input type="reset" value="Clear" class="btn btn-primary">
 							

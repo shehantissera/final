@@ -222,7 +222,7 @@
 							
 							<br><br>
                             
-							<input type="submit" value="Create Account" class="btn btn-primary">
+							<input type="submit" value="Create Service" class="btn btn-primary">
 							
 							<input type="reset" value="Clear" class="btn btn-primary">
 							

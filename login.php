@@ -169,11 +169,11 @@
                         <a href="create_account.php" class="btn btn-primary">Create an account</a>
                     </div>
                     <div class="span6 login">
-                        <h2>Registed costumers</h2>
+                        <h2>Registered Customers</h2>
                         <p>If you have an account with us, please log in.</p>
                         <form action="#">
                             <label>Email Adress: <span class="required">*</span></label>
-                            <input type="email">
+                            <input type="email" required title="Please provide an proper email address.">
                             <label>Password: <span class="required">*</span></label>
                             <input type="password">
                             <label class="checkbox-form">
