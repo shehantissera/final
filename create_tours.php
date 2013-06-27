@@ -149,34 +149,48 @@
         <div class="site-container">
             <ul class="breadcrumb container-box">
                 <li><a href="#">Home</a></li>
-                <li class="active">Create a Sight</li>
+                <li class="active">Create a Tour</li>
             </ul>
         </div>
         <div class="site-container">
             <div class="container entry-content">
                 <div class="row">
                     <div class="span12">
-                        <h1 class="page-title">Create a Sight</h1>
+                        <h1 class="page-title">Create a Tour</h1>
                     </div>
                 </div>
                 <div class="row">
                     <div class="span6 login">
-                        <h2>New Sight</h2>
+                        <h2>New Tour</h2>
                         <p>Enter your information in the fields given below. The fields which contain <span class="required">*</span> are the required fields.</p>
                         <form action="#">
 						
-                            <label>Name: <span class="required">*</span></label>
-                            <input type="text" maxlength=100 required title="The name should be filled." placeholder="Enter the sight name...">
+                            <label>Title: <span class="required">*</span></label>
+                            <input type="text" maxlength=100 required title="The title of the tour." placeholder="Enter the sight name...">
 							
-                            <label>Description: <span class="required">*</span></label>
-                            <textarea required="required" maxlength=999 placeholder="Description should be less than 1000 characters"></textarea>
+                            <label>Itinerary: <span class="required">*</span></label>
+                            <textarea required="required" maxlength=2000 placeholder="Description should be less than 2000 characters"></textarea>
 							
-							<label>Location:</label>
+							<label>Accomadation Type:</label>
                             <select>
                                 <option disabled selected value="">Please Select</option>
-                                <option>Aaland Islands</option>
-                                <option>Afghanistan</option>
+                                <option>5* Hotels</option>
+                                <option>3* Hotels</option>
+								<option>Middle Class Hotels</option>
+								<option>Guesthouses</option>
                             </select>
+							
+							<label>Basis:</label>
+                            <select>
+                                <option disabled selected>Please Select</option>
+                                <option>Full board [F.B.]</option>
+                                <option>Half board [H.B.]</option>
+								<option>Bed and Breakfast [B.B.]</option>
+								<option>Room only [R.O]</option>
+                            </select>
+							
+							<label>Number of days: <span class="required">*</span></label>
+                            <input type="number" maxlength=3 required title="Please enter the number of days of the tour." placeholder="Enter the number of days of the tour...">
 							
 							<label>Category:</label>
                             <select>
@@ -185,7 +199,7 @@
                                 <option>Afghanistan</option>
                             </select>
 							
-                            <label>Longitude: <span class="required">*</span></label>
+                            <label>Longitude of starting location: <span class="required">*</span></label>
                             <input type="number" step="any" required title="Longitude can contain only the range from -180 to 180">
 							
 							<label>Latitude: <span class="required">*</span></label>
@@ -206,8 +220,9 @@
                         </form>
                     </div>
 					<div class="span6 new-costumers">
-						<h2>New Sight</h2>
-                        <p>A sight can be a location which can be an attraction to the forigners and people who find it interesting. If you think you should share the areas which you find it interesting, add those information over here and add it as an new sight and let others know.
+						<h2>New Tour</h2>
+                        <p>
+						Tour operators can have different types of tours which they offer. These pre-made tours can be displayed with the tour information and itinerary. The contact information can be provided by the user so that the interested personals can contact them directly.
                         </p>
 						
                     </div>
@@ -216,8 +231,8 @@
         </div>
         <?php require_once 'inc.footer.php'; ?>
 		
-        <script src="http://code.jquery.com/jquery.js"></script>
-		<script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+        <script src="js/localjquery.js"></script>
+		<script src="js/jquery-ui.js"></script>
         <script src="js/bootstrap.js"></script>
         <script src="js/jquery.formstyler.js"></script>
         <script src="js/jquery.carouFredSel-6.2.0-packed.js"></script>

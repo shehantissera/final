@@ -189,7 +189,7 @@
             </div>
         </div>
         <?php require_once 'inc.footer.php'; ?>
-        <script src="http://code.jquery.com/jquery.js"></script>
+        <script src="js/localjquery.js"></script>
         <script src="js/bootstrap.js"></script>
         <script src="js/jquery.formstyler.js"></script>
         <script src="js/jquery.carouFredSel-6.2.0-packed.js"></script>

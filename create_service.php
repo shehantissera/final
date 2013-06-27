@@ -183,6 +183,9 @@
 							<label>Mobile: <span class="required">*</span></label>
                             <input type="number" required maxlength=20  placeholder="ex: 94770727245">
 							
+							<label>Skype name:</label>
+                            <input type="text" maxlength=100 required placeholder="Skype name...">
+							
 							<label>Address:</label>
                             <textarea  maxlength=999 placeholder="Description should be less than 1000 characters"></textarea>
 							
@@ -242,8 +245,8 @@
         </div>
         <?php require_once 'inc.footer.php'; ?>
 		
-        <script src="http://code.jquery.com/jquery.js"></script>
-		<script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
+        <script src="js/localjquery.js"></script>
+		<script src="js/jquery-ui.js"></script>
         <script src="js/bootstrap.js"></script>
         <script src="js/jquery.formstyler.js"></script>
         <script src="js/jquery.carouFredSel-6.2.0-packed.js"></script>
