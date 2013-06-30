@@ -181,6 +181,17 @@
 								<option>56 and above</option>
                             </select>
 							
+							<label>Gender:</label><br>
+							<label class="radio">
+								<input type="radio" name="gender" id="optionsRadios1" value="male" required>
+								Male
+							</label>
+							<label class="radio">
+								<input type="radio" name="gender" id="optionsRadios2" value="female">
+								Female
+							</label>
+							<br>
+							
 							<label>Email Address: <span class="required">*</span></label>
                             <input type="email" maxlength=50 required placeholder="ex: some_one@yahoo.com" title="Please provide an valide email address.">
 							
@@ -223,14 +234,24 @@
                             <label>User type: <span class="required">*</span></label>
                             <select>
                                 <option disabled selected>Please Select</option>
-                                <option>Guest</option>
+                                <option>Traveller</option>
 								<option>Service Provider</option>
                             </select>
 							
+							<label>Interests: <span class="required">*</span></label>
+							<label class="checkbox inline">
+								<input type="checkbox" id="inlineCheckbox1" value="option1"> Category 1
+							</label>
+							<label class="checkbox inline">
+								<input type="checkbox" id="inlineCheckbox2" value="option2"> Category 2
+							</label>
+							<label class="checkbox inline">
+								<input type="checkbox" id="inlineCheckbox3" value="option3"> Category 3
+							</label>
+							
 							<br><br>
                             
-							<input type="submit" value="Create Account" class="btn btn-primary">
-							
+							<button name="addUser" type="submit" class="btn btn-primary">Create Acount</button>
 							<input type="reset" value="Clear" class="btn btn-primary">
 							
                             <div class="required-field pull-right">* Required Field</div>

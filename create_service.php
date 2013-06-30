@@ -178,10 +178,10 @@
                             <input type="email" maxlength=50 required placeholder="ex: some_one@yahoo.com" title="Please provide an valide email address.">
 							
                             <label>Landline: <span class="required">*</span></label>
-                            <input type="number" required maxlength=20  placeholder="ex: 94312239524">
+                            <input type="number" required maxlength=20  placeholder="ex: 94789452612">
 							
 							<label>Mobile: <span class="required">*</span></label>
-                            <input type="number" required maxlength=20  placeholder="ex: 94770727245">
+                            <input type="number" required maxlength=20  placeholder="ex: 94777897898">
 							
 							<label>Skype name:</label>
                             <input type="text" maxlength=100 required placeholder="Skype name...">
