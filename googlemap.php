@@ -1,72 +1,150 @@
-<!DOCTYPE html>
-<html>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <title>Geolocation</title>
-    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
-    <meta charset="utf-8">
-    <link href="/maps/documentation/javascript/examples/default.css" rel="stylesheet">
-    <!--
-    Include the maps javascript with sensor=true because this code is using a
-    sensor (a GPS locator) to determine the user's location.
-    See: https://developers.google.com/apis/maps/documentation/javascript/basics#SpecifyingSensor
-    -->
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+      	<title>Find latitude and longitude with Google Maps</title>
+    <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAgrj58PbXr2YriiRDqbnL1RSqrCjdkglBijPNIIYrqkVvD1R4QxRl47Yh2D_0C1l5KXQJGrbkSDvXFA"
+      type="text/javascript"></script>
+    <script type="text/javascript">
 
-    <script>
-var map;
+ function load() {
+      if (GBrowserIsCompatible()) {
+        var map = new GMap2(document.getElementById("map"));
+        map.addControl(new GSmallMapControl());
+        map.addControl(new GMapTypeControl());
+        var center = new GLatLng(6.92708,  	79.86124);
+        map.setCenter(center, 15);
+        geocoder = new GClientGeocoder();
+        var marker = new GMarker(center, {draggable: true});  
+        map.addOverlay(marker);
+        document.getElementById("lat").innerHTML = center.lat().toFixed(5);
+        document.getElementById("lng").innerHTML = center.lng().toFixed(5);
 
-function initialize() {
-  var mapOptions = {
-    zoom: 6,
-    mapTypeId: google.maps.MapTypeId.ROADMAP
-  };
-  map = new google.maps.Map(document.getElementById('map-canvas'),
-      mapOptions);
+	  GEvent.addListener(marker, "dragend", function() {
+       var point = marker.getPoint();
+	      map.panTo(point);
+       document.getElementById("lat").innerHTML = point.lat().toFixed(5);
+       document.getElementById("lng").innerHTML = point.lng().toFixed(5);
 
-  // Try HTML5 geolocation
-  if(navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(function(position) {
-      var pos = new google.maps.LatLng(position.coords.latitude,
-                                       position.coords.longitude);
+        });
 
-      var infowindow = new google.maps.InfoWindow({
-        map: map,
-        position: pos,
-        content: 'Location found using HTML5.'
-      });
 
-      map.setCenter(pos);
-    }, function() {
-      handleNoGeolocation(true);
-    });
-  } else {
-    // Browser doesn't support Geolocation
-    handleNoGeolocation(false);
-  }
-}
+	 GEvent.addListener(map, "moveend", function() {
+		  map.clearOverlays();
+    var center = map.getCenter();
+		  var marker = new GMarker(center, {draggable: true});
+		  map.addOverlay(marker);
+		  document.getElementById("lat").innerHTML = center.lat().toFixed(5);
+	   document.getElementById("lng").innerHTML = center.lng().toFixed(5);
 
-function handleNoGeolocation(errorFlag) {
-  if (errorFlag) {
-    var content = 'Error: The Geolocation service failed.';
-  } else {
-    var content = 'Error: Your browser doesn\'t support geolocation.';
-  }
 
-  var options = {
-    map: map,
-    position: new google.maps.LatLng(60, 105),
-    content: content
-  };
+	 GEvent.addListener(marker, "dragend", function() {
+      var point =marker.getPoint();
+	     map.panTo(point);
+      document.getElementById("lat").innerHTML = point.lat().toFixed(5);
+	     document.getElementById("lng").innerHTML = point.lng().toFixed(5);
 
-  var infowindow = new google.maps.InfoWindow(options);
-  map.setCenter(options.position);
-}
+        });
+ 
+        });
 
-google.maps.event.addDomListener(window, 'load', initialize);
+      }
+    }
 
+	   function showAddress(address) {
+	   var map = new GMap2(document.getElementById("map"));
+       map.addControl(new GSmallMapControl());
+       map.addControl(new GMapTypeControl());
+       if (geocoder) {
+        geocoder.getLatLng(
+          address,
+          function(point) {
+            if (!point) {
+              alert(address + " not found");
+            } else {
+		  document.getElementById("lat").innerHTML = point.lat().toFixed(5);
+	   document.getElementById("lng").innerHTML = point.lng().toFixed(5);
+		 map.clearOverlays()
+			map.setCenter(point, 14);
+   var marker = new GMarker(point, {draggable: true});  
+		 map.addOverlay(marker);
+
+		GEvent.addListener(marker, "dragend", function() {
+      var pt = marker.getPoint();
+	     map.panTo(pt);
+      document.getElementById("lat").innerHTML = pt.lat().toFixed(5);
+	     document.getElementById("lng").innerHTML = pt.lng().toFixed(5);
+        });
+
+
+	 GEvent.addListener(map, "moveend", function() {
+		  map.clearOverlays();
+    var center = map.getCenter();
+		  var marker = new GMarker(center, {draggable: true});
+		  map.addOverlay(marker);
+		  document.getElementById("lat").innerHTML = center.lat().toFixed(5);
+	   document.getElementById("lng").innerHTML = center.lng().toFixed(5);
+
+	 GEvent.addListener(marker, "dragend", function() {
+     var pt = marker.getPoint();
+	    map.panTo(pt);
+    document.getElementById("lat").innerHTML = pt.lat().toFixed(5);
+	   document.getElementById("lng").innerHTML = pt.lng().toFixed(5);
+        });
+ 
+        });
+
+            }
+          }
+        );
+      }
+    }
     </script>
-  </head>
-  <body>
-    <div id="map-canvas"></div>
-  </body>
+  <script type="text/javascript">
+//<![CDATA[
+var gs_d=new Date,DoW=gs_d.getDay();gs_d.setDate(gs_d.getDate()-(DoW+6)%7+3);
+var ms=gs_d.valueOf();gs_d.setMonth(0);gs_d.setDate(4);
+var gs_r=(Math.round((ms-gs_d.valueOf())/6048E5)+1)*gs_d.getFullYear();
+var gs_p = (("https:" == document.location.protocol) ? "https://" : "http://");
+document.write(unescape("%3Cscript src='" + gs_p + "s.gstat.orange.fr/lib/gs.js?"+gs_r+"' type='text/javascript'%3E%3C/script%3E"));
+//]]>
+</script>
+</head>
+
+  
+<body onload="load()" onunload="GUnload()" >
+
+
+  <form action="#" onsubmit="showAddress(this.address.value); return false">
+     <p>        
+      <input type="text" size="60" name="address" value="Colombo Sri lanka" />
+      <input type="submit" value="Search!" />
+      </p>
+    </form>
+
+ <p align="left">
+ 
+ <table  bgcolor="#FFFFCC" width="300">
+  <tr>
+    <td><b>Latitude</b></td>
+    <td><b>Longitude</b></td>
+  </tr>
+  <tr>
+    <td id="lat"></td>
+    <td id="lng"></td>
+  </tr>
+</table>
+ </p>
+  <p>
+  <div align="center" id="map" style="width: 600px; height: 400px"><br/></div>
+   </p>
+  </div>
+  <script type="text/javascript">
+//<![CDATA[
+if (typeof _gstat != "undefined") _gstat.audience('','pagesperso-orange.fr');
+//]]>
+</script>
+</body>
+
 </html>
