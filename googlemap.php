@@ -6,6 +6,10 @@
       	<title>Find latitude and longitude with Google Maps</title>
     <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAgrj58PbXr2YriiRDqbnL1RSqrCjdkglBijPNIIYrqkVvD1R4QxRl47Yh2D_0C1l5KXQJGrbkSDvXFA"
       type="text/javascript"></script>
+	  <link href="http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700" rel="stylesheet" media="all">
+	  <link href="css/style.css" rel="stylesheet">
+        <link href="css/media.css" rel="stylesheet">
+
     <script type="text/javascript">
 
  function load() {
@@ -115,36 +119,53 @@ document.write(unescape("%3Cscript src='" + gs_p + "s.gstat.orange.fr/lib/gs.js?
   
 <body onload="load()" onunload="GUnload()" >
 
-
-  <form action="#" onsubmit="showAddress(this.address.value); return false">
-     <p>        
-      <input type="text" size="60" name="address" value="Colombo Sri lanka" />
-      <input type="submit" value="Search!" />
-      </p>
+<div class="site-container">
+            <div class="container entry-content">
+                <div class="row">
+                    <div class="span6">
+                        <h1 class="page-title">GMAPS</h1>
+	
+	<form action="#" onsubmit="showAddress(this.address.value); return false">      
+      <input type="text" size="83" name="address" value="Colombo Sri lanka" class="input-medium search-query" />
+      <input type="submit" value="Search!" class="btn btn-primary" />
     </form>
 
- <p align="left">
  
- <table  bgcolor="#FFFFCC" width="300">
+ <table  bgcolor="#999999" width="600">
   <tr>
-    <td><b>Latitude</b></td>
-    <td><b>Longitude</b></td>
+    <td><b><center>Latitude</center></b></td>
+    <td><b><center>Longitude</center></b></td>
   </tr>
   <tr>
-    <td id="lat"></td>
-    <td id="lng"></td>
+    <td><center><div id="lat"></div></center></td>
+    <td><center><div id="lng"></div></center></td>
   </tr>
 </table>
- </p>
-  <p>
-  <div align="center" id="map" style="width: 600px; height: 400px"><br/></div>
-   </p>
-  </div>
+
+  <div align="center" id="map" style="width: auto; height: 400px"><br/></div>
+                    </div>
+                </div>
+				
+			</div>
+		</div>
+		
+  
+  <!-- -->
+  
   <script type="text/javascript">
 //<![CDATA[
 if (typeof _gstat != "undefined") _gstat.audience('','pagesperso-orange.fr');
 //]]>
 </script>
+<script src="js/localjquery.js"></script>
+		<script src="js/jquery-ui.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/jquery.formstyler.js"></script>
+        <script src="js/jquery.carouFredSel-6.2.0-packed.js"></script>
+        <script src="js/jquery.touchSwipe.min.js"></script>
+        <script src="js/jquery.cookie.js"></script>
+        <script src="js/jquery.minicolors.js"></script>
+        <script src="js/script.js"></script>
 </body>
 
 </html>

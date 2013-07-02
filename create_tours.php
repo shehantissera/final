@@ -232,6 +232,8 @@
 						Tour operators can have different types of tours which they offer. These pre-made tours can be displayed with the tour information and itinerary. The contact information can be provided by the user so that the interested personals can contact them directly.
                         </p>
 						
+						<iframe src="googlemap.php" width="100%" height="850" seamless></iframe>
+						
                     </div>
                 </div>
 			</div>
